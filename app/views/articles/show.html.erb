@@ -1,0 +1,5 @@
+<h1>Articles#show</h1>
+
+<h2><%= @article.title %></h2>
+<p><%= raw markdown(@article.content) %></p>
+<%= link_to "Back", articles_path %>
